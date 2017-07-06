@@ -25,3 +25,8 @@ kg_beekeeping_management_visite:
 kg_beekeeping_management_tache:
     resource: "@KGBeekeepingManagementBundle/Resources/config/routing/tache.yml"
     prefix:   /tache/     
+
+kg_beekeeping_management_post:
+    resource: "@KGBeekeepingManagementBundle/Resources/config/routing/post.yml"
+    prefix:   /post/
+
