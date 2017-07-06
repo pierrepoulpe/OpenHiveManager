@@ -179,7 +179,7 @@ class RucherController extends Controller
             throw new NotFoundHttpException('Page inexistante.');
         }
         
-        $apikey = $this->container->getParameter('apikey');  
+        $apikey = ""// D'où vient ce paramètre?; $this->container->getParameter('apikey');  
         
         return $this->render('KGBeekeepingManagementBundle:Rucher:view.html.twig', 
                 array(  'rucher'       => $rucher,
