@@ -184,4 +184,4 @@ doctrine_migrations:
     name: Application Migrations  
     
 cmen_google_charts:
-    version: "1"        
+    version: "current"        
